@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+Git creates a hidden directory in which it tracks changes to the repository.
+Wouldn't track otherwise. Need to be explicit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is a cached area that allows parts of the solution to be tied together by a commit.
+The working directory is just a file system and the repository is that working directory plus git information.
+
